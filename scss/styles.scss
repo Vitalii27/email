@@ -1,0 +1,251 @@
+@import "foundation";
+
+html {
+  background: transparent !important;
+}
+
+.bg1 {
+  background-image: url('https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/333/h/0ad2869c58fd3ab5e24d14525bd2fefa.png') !important;
+  position: relative;
+  z-index: 2;
+  background-color: transparent !important;
+}
+
+.bg2 {
+  background-image: url('https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/259/h/5d0f685163d9be1876e780babe49fb4f.png') !important;
+  color: #000 !important;
+  background-color: #fff !important;
+  margin-top: -20px;
+}
+
+.bg4 {
+  background-image: url('https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/231/h/1d8f5f7e0a0b4b3f4f245d2ba38e6304.png') !important;
+background-position: 0 0 !important;
+  position: relative;
+  z-index: 5;
+  margin-top: -14px;
+  .text-list {
+    float: left;
+    .text-orange {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+  }
+  .text-list-float {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+  }
+  .bg4-bottom {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+}
+
+.bg5 {
+  background-image: url('https://fs.getcourse.ru/fileservice/file/download/a/12221/sc/153/h/a2bb178a555427f6b5c0856af8574e7a.png') !important;
+  background-color: transparent !important;
+  position: relative;
+  z-index: 30;
+  margin-top: -15px;
+}
+
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text-home {
+  color: #fff;
+  font-size: 16px;
+
+}
+
+.custom-pb {
+  padding-bottom: 10px !important;
+}
+
+.text-second {
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.text-orange {
+  color: #ed9204 !important;
+  letter-spacing: -1px;
+}
+
+.tiny-text {
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+
+.home-btn {
+  width: 268px;
+  //height: 48px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(233, 144, 6, .9);
+  position: relative;
+  border-radius: 5px;
+  padding: 14px 0;
+  outline: 0;
+  font-weight: 600;
+
+  box-shadow: 0px 0px 9.5px 0.5px rgba(255, 180, 0, 1);
+
+}
+
+.subtitle-home {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.email-title {
+  color: #ed9204;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.basic-link {
+  text-decoration: underline;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.bottom-desc {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (22/14);
+}
+
+.decorative-line {
+  background: $grey;
+  height: 2px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.item-price {
+  color: $grey;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.border {
+  background-color: #fff;
+  width: 50px;
+  height: 2px;
+}
+
+.footer-desc {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
+
+.bg3 {
+  background-color: #fff !important;
+
+  color: #000 !important;
+}
+
+.email-title2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 28px !important;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.bg2-desc {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-list {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.bg2-bottom-desc {
+  font-size: 16px;
+  color: #fff;
+}
+
+.bg3 {
+  .email-title2 {
+    color: #000;
+    letter-spacing: -1px;
+  }
+  .bg3-desc {
+    color: #000;
+    font-size: 16px;
+  }
+}
